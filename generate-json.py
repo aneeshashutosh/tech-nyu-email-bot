@@ -57,6 +57,5 @@ print("Saving to " + file + "...")
 with open(file, 'w') as f:
     json.dump(json_dictionary, f, sort_keys=True, indent=4,
               separators=(',', ': '), ensure_ascii=False)
-    # json.dump(json_dictionary, f, ensure_ascii=False)
 
 print("Done!")
